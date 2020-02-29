@@ -37,14 +37,17 @@ function ArticleInfo(props) {
         <Link to={`/articles/${article._id}/edit`} className="btn btn-primary">
           Edit
         </Link>
-        <button onClick={handleDelete} className="btn btn-danger">
+        <button  disabled onClick={handleDelete} className="btn btn-danger">
           Delete
         </button>
         <Link to="/articles" className="btn btn-secondary">
           Close
         </Link>
+    
+       
       </div>
       <hr />
+      <strong>If you would like to edit or delete blog post contact the admin</strong>
     </div>
   );
 }
