@@ -8,7 +8,7 @@ const MONGO_URI = "mongodb://localhost:27017/articles"
 
 app.use(express.urlencoded({extended: true}))
 app.use(express.json())
-app.use("/", router)
+app.use("/api", router)
 
 mongoose.connect(MONGO_URI, {useNewUrlParser: true, useFindAndModify: false})
 
