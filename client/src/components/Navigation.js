@@ -3,8 +3,8 @@ import {NavLink} from "react-router-dom"
 
 function Navigation() {
   return (
-    <div>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark mb-4 navbar-fixed-top">
+    <div >
+      <nav style={{padding:"20px"}} className="navbar navbar-expand-lg navbar-dark bg-dark mb-4 navbar-fixed-top">
         <div className="container">
           <ul className="navbar-nav mr-auto">
             <li className="nav-item">
